@@ -1,0 +1,54 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; // Ensure it's above other content
+  
+    .modal-content {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+      width: 90%;
+      max-width: 500px; // Set a max-width for larger screens
+      z-index: 1001;
+      animation: modalIn 0.3s ease-out forwards;
+  
+      // If you have a fixed header or need to ensure visibility within a container, adjust the max-height and overflow
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+  
+    .close-button {
+      background: #f44336;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-weight: bold;
+      float: right; // Align the button to the right
+  
+      &:hover {
+        background: darken(#f44336, 10%);
+      }
+    }
+  }
+  
+  @keyframes modalIn {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

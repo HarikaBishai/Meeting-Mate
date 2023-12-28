@@ -1,0 +1,166 @@
+.dashboard {
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    margin: 20px auto;
+    max-width: 650px;
+    padding: 20px;
+
+
+
+    &-header {
+        color: #223f5b;
+        margin-bottom: 20px;
+        text-align: left;
+        font-size: 24px;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+
+        &-img {
+            .img {
+                width: 35px;
+                height: 35px;
+            }
+
+        }
+
+        &-title {
+            margin-left: 10px;
+        }
+    }
+
+    .event {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #e0e0e0;
+        min-height: 60px;
+        text-align: start;
+
+        &-detail {
+            // make the datetime 
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            &-datetime {
+
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                justify-content: space-around;
+
+                &-date {
+                    font-weight: bold;
+                    color: #838383;
+                    font-size: 18px;
+                }
+
+                &-time {
+                    font-size: 12px;
+                    color: #939191;
+                }
+            }
+
+            &-titlesummary {
+                flex-grow: 10;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+
+                &-title {
+                    font-weight: bold;
+                    color: #838383;
+                    font-size: 18px;
+                }
+
+                &-description {
+                    // font-style: italic;
+                    color: #6ba2cd;
+                    font-weight: bold;
+                }
+            }
+
+            // make the button text align to y-axis center
+
+            &-viewbutton {
+                display: flex;
+                align-items: center;
+
+                .button {
+                    background-color: #035fa9;
+                    border: none;
+                    border-radius: 4px;
+                    color: white;
+                    cursor: pointer;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    font-size: 0.875rem;
+                    text-align: center;
+                    // Add a fixed width or padding to the button to ensure size consistency
+                    width: 40px;
+                    height: 20px;
+
+                    &:hover {
+                        background-color: darken(#035fa9, 10%);
+                    }
+                }
+
+            }
+
+            &-togglebutton {
+                padding-left: 5px;
+                display: flex;
+                align-items: center;
+                margin-left: auto; // align to the right side
+                flex-direction: column;
+                justify-content: space-evenly;
+                text-align: center;
+                flex-grow: 1;
+                .reminder-label {
+                    font-size: 0.7rem; // Matching the font size with your buttons
+                    color: #838383; // A color that matches your design
+                    margin-right: 10px; // Space between the label and the toggle button
+                  }
+                .toggle-button {
+                    position: relative;
+                    width: 50px; // Width of the toggle
+                    height: 25px; // Height of the toggle
+                    border-radius: 25px;
+                    background-color: #cfd8dc;
+                    cursor: pointer;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 2px; // Spacing from the top
+                        left: 2px; // Spacing from the left side when toggled off
+                        width: 21px; // Width of the circle
+                        height: 21px; // Height of the circle
+                        border-radius: 50%;
+                        background-color: white;
+                        transition: all 0.3s ease; // Smooth transition for sliding effect
+                    }
+
+                    &.active {
+                        background-color: #035fa9; // Active state color matching your button color
+
+                        &::after {
+                            left: 27px; // Spacing from the left side when toggled on
+                            // This value is equal to the width of the toggle minus the width of the circle and the spacings
+                        }
+                    }
+
+                    &:hover {
+                        background-color: darken(#cfd8dc, 10%);
+                    }
+                }
+            }
+        }
+
+
+    }
+}

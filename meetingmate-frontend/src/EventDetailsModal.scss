@@ -1,0 +1,106 @@
+.modal-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-container {
+  background-color: #ffffff;
+  width: auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.modal-header {
+  background-color: #5B6EF5;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.modal-content {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.detail-row {
+  margin-bottom: 20px;
+  &.detail-row:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.detail-title {
+  font-weight: bold;
+  color: #333;
+  display: block; // Use block for title to appear on its own line
+  margin-bottom: 5px;
+}
+
+.invite-link {
+  color: #5B6EF5;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.participant-item {
+  list-style: none;
+  margin-bottom: 5px;
+  .participant-name {
+    font-weight: bold;
+  }
+  .participant-email {
+    font-weight: normal;
+    color: #555;
+  }
+}
+
+.modal-footer {
+  padding: 16px;
+  background-color: #F4F5F7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.action-button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  &.reschedule {
+    background-color: #FFD666;
+    color: #333;
+  }
+  &.cancel {
+    background-color: #FF6666;
+    color: #fff;
+  }
+}
