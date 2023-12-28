@@ -58,8 +58,7 @@ const EventDetailsModal = ({ isOpen, onClose, eventData }) => {
           </div>
         </div>
         <div className="modal-footer">
-          <button className="action-button reschedule">Reschedule</button>
-          <button className="action-button cancel">Cancel meeting</button>
+          
         </div>
       </div>
     </div>
