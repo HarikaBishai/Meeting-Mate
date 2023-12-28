@@ -3,8 +3,7 @@
 ## Overview
 MeetingGate is a Google Calendar Automation Tool that seamlessly integrates with the Google Calendar API and Gmail API. The primary objective is to send timely reminders to all attendees of upcoming events scheduled on the user's Google Calendar. 
 ## Repositories
-- Frontend: `meetinggate-frontend`
-- Backend: `meetinggate-backend`
+- MeetingMate - `https://github.com/HarikaBishai/Meeting-Mate.git`
 
 ## Frontend (`meetingmate-frontend`)
 The frontend is the visual and interactive aspect of MeetingGate, built with cutting-edge web technologies to provide a user-friendly experience.
@@ -18,7 +17,6 @@ The frontend is the visual and interactive aspect of MeetingGate, built with cut
 ### Installation
 To set up the frontend, clone the repository and install its dependencies:
 ```bash
-git clone https://github.com/HarikaBishai/Meeting-Mate/meetinggate-frontend.git
 cd meetinggate-frontend
 npm install
 npm start
@@ -35,7 +33,6 @@ The backend repository contains the server and database logic, ensuring secure d
 ### Installation
 To set up the frontend, clone the repository and install its dependencies:
 ```bash
-git clone https://github.com/HarikaBishai/Meeting-Mate/meetinggate-backend.git
 cd meetinggate-backend
 npm install
 npm start
