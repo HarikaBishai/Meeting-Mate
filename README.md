@@ -22,7 +22,7 @@ npm install
 npm start
 ```
 
-## Frontend (`meetingmate-backend`)
+## Backend (`meetingmate-backend`)
 The backend repository contains the server and database logic, ensuring secure data management and API functionality.
 
 ### Features
@@ -31,7 +31,7 @@ The backend repository contains the server and database logic, ensuring secure d
 - CronJob to send meeting remainders
 
 ### Installation
-To set up the frontend, clone the repository and install its dependencies:
+To set up the backend, clone the repository and install its dependencies:
 ```bash
 cd meetinggate-backend
 npm install
