@@ -53,16 +53,17 @@ Here are some screenshots of the MeetingMate application in action:
 ![Screenshot 2023-12-28 155457](https://github.com/HarikaBishai/Meeting-Mate/assets/60469239/3b3a68f4-96b0-4f4d-b321-8aeb518c9738)
 
 
+![Screenshot 2023-12-28 155536](https://github.com/HarikaBishai/Meeting-Mate/assets/60469239/bbd80c29-bd7c-4182-9f61-fca3de8b7406)
 
-![Screenshot 2023-12-28 155536](https://github.com/HarikaBishai/Meeting-Mate/assets/60469239/0f0f9943-197e-45ef-a2c1-a1010e5824fd)
 
 
 ![Screenshot 2023-12-28 155008](https://github.com/HarikaBishai/Meeting-Mate/assets/60469239/0f6b61d9-e3e5-4d1c-8ec9-05dab65363fd)
 
-![image](https://github.com/HarikaBishai/Meeting-Mate/assets/60469239/da5ad159-920b-4c6c-be62-48035c8144ac)
+
+![293276214-da5ad159-920b-4c6c-be62-48035c8144ac](https://github.com/HarikaBishai/Meeting-Mate/assets/60469239/c366a1db-ee3f-444b-9bbd-14abfd669e7d)
 
 
-![Screenshot 2023-12-28 154839](https://github.com/HarikaBishai/Meeting-Mate/assets/60469239/9f20acb4-ec1b-461d-9e3d-e2197042a884)
+
 ![image](https://github.com/HarikaBishai/Meeting-Mate/assets/60469239/3b4b555b-5ddb-472c-bc9b-a8e083e1055f)
 
 
